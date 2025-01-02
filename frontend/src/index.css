@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-foreground;
+}
+
+/* Custom utility classes */
+.input {
+  @apply mt-1 p-2 border border-border rounded w-full;
+}
+
+.label {
+  @apply block text-muted-foreground;
+}
+
+.button {
+  @apply bg-primary text-primary-foreground p-2 rounded-lg w-full hover:bg-primary/80;
+}
